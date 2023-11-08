@@ -1,0 +1,56 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Index2.master.vb" Inherits="SIASTV.Index2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ASOCUCAITA</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link rel ="shourcut icon" type="image/x-icon" href="../Imagenes/logueo.png"/>
+        <link rel="stylesheet" type="text/css" href="../css/Estilo3.css"/>
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 202px;
+        }
+    </style>
+    <script type="text/javascript">
+        function detener() { window.history.forward(); }
+        setTimeout("detener()", 0);
+        window.onunload = function () { null };
+        </script>
+</head>
+    <header>
+        <img src="../Imagenes/logueo.png" />
+    </header>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">
+                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td rowspan="2"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+    
+</html>

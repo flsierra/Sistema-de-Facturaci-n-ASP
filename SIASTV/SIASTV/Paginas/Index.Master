@@ -1,0 +1,93 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Index.master.vb" Inherits="SIASTV.Index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel ="shourcut icon" type="image/x-icon" href="../Imagenes/logueo.png" />
+    <link rel="stylesheet" type="text/css" href="../css/estilo6.css"/>
+    <title>ASOCUCAITA</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        function detener() { window.history.forward(); }
+        setTimeout("detener()", 0);
+        window.onunload = function () { null };
+        </script>
+</head>
+    <header>
+        <div >
+            <nav>
+		<ul class="nav">
+            <li></li>
+            <li><a href="InicioAdmin.aspx"><strong>Inicio</strong></a></li>
+		<li><a href="Usuario.aspx"><strong>Control de Usuarios</strong></a>
+			
+			
+		</li>
+		<li><a href=""><strong>Facturacion</strong></a>
+            <ul>
+                <li><a href="Factura1.aspx">Facturas</a></li>
+                <li><a href="Detalle_Factura.aspx">Detalle de Factura</a></li>
+            </ul>
+			
+		</li>
+		<li><a href=""><strong>Forma de Pago</strong></a>
+		 	<ul>
+                <li><a href="Medio de Pago.aspx">Entidad</a></li>
+                <li><a href="Transaccion.aspx">Transaccion Bancaria</a></li>
+            </ul>
+
+		</li>
+		<li><a href=""><strong>Informes</strong></a>
+            <ul>
+                <li><a href="Listado_Usuarios.aspx">Listado de Usuarios</a></li>
+                <li><a href="Deudores.aspx">Usuarios Deudores</a></li>
+                <li><a href="Paz_Salvo.aspx">Usuarios a Paz y Salvo</a></li>
+            </ul>
+			</li> 
+            <li>
+                <a href="Cerrar_Sesion.aspx"><strong>Cerrar Sesion</strong></a>
+            </li>
+                </nav>
+        </div>
+        
+        
+        
+    </header><br />
+    <div id="imagenlogo">
+        <img src="../Imagenes/logueo.png" />
+    </div>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+
+        
+    </div>
+    </form>
+</body>
+    <footer>
+        <center>
+            <h3>
+                REALIZADO POR <br />
+                EDISSON FABIAN LARGO SIERRA <br />
+                ADSI 2017<br />
+                ASOCIACION COMUNITARIA DE TELEVISION DE CUCAITA "ASOCUCAITA" ©<br />
+                TODOS LOS DERECHOS RESERVADOS ®
+            </h3>
+        </center>
+    </footer>
+</html>

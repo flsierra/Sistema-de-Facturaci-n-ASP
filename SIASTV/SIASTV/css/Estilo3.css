@@ -1,0 +1,78 @@
+﻿nav a {
+    color : white;
+}
+nav{
+	border-color: #546345;
+	margin-left: 500px;
+}
+/*menu general*/
+nav ul{
+	list-style: none;
+	padding: 0;
+    background:black;
+}
+nav li{
+	line-height:3rem;
+	position: relative;
+    background:black;
+}
+nav li ul{
+	position: absolute;
+    background:black;
+}
+nav a {
+	text-decoration: none;
+	display: block;
+	padding: 0.5cm;
+	text-decoration: none;
+	transition: 0.5s;
+    background:black;
+}
+nav a{
+    color:white;
+}
+nav a:hover{
+	color : gray;
+}
+nav li ul{ 
+	display:none;
+    background:black;
+
+}
+nav li:hover > ul{
+	display: block;
+    background:black;
+}
+/*primer nivel*/
+
+}
+nav > ul{
+	background:black;
+	display: table;
+	width: 100%;
+    background:black;
+    margin-left: 80px;
+}
+ul li {
+background:black;
+}
+
+nav > ul > li{
+	float: left;
+
+}
+/*segundo nivel*/
+
+nav li li{
+	background:black;
+	width: 200px;
+	opacity:5;
+}
+nav ul > li > ul {
+	top:100%;
+    background:black;
+}
+footer {
+background-color:black;
+color: white;
+}

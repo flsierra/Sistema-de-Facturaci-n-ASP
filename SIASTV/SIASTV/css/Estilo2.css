@@ -1,0 +1,96 @@
+﻿#imagenlogo {
+    margin-bottom :20px;
+    width: 260px;
+}
+ul.nav {
+    margin-left:-230px;
+}
+
+body {
+    background-image: url(../Imagenes/12.jpg);
+    background-repeat: no-repeat;
+}
+nav a {
+    color : white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:18px;
+
+}
+nav{
+	border-color: #546345;
+	margin-left: 500px;
+}
+/*menu general*/
+nav ul{
+	list-style: none;
+	padding: 0;
+   background:#9FBDE3;
+}
+nav li{
+	line-height:3rem;
+	position: relative;
+    background:#9FBDE3;
+}
+nav li ul{
+    
+	position: absolute;
+    background:#9FBDE3;
+}
+nav a {
+	text-decoration: none;
+	display: block;
+	padding: 0.5cm;
+	text-decoration: none;
+	transition: 0.5s;
+    background:#9FBDE3;
+
+}
+nav a{
+    color:white;
+}
+nav a:hover{
+	color : gray;
+}
+nav li ul{ 
+	display:none;
+        background:#9FBDE3;
+
+
+}
+nav li:hover > ul{
+	display: block;
+    background:#9FBDE3;
+}
+/*primer nivel*/
+
+}
+nav > ul{
+	background:black;
+	display: table;
+	width: 100%;
+    background:#9FBDE3;
+    margin-left: 80px;
+}
+ul li {
+background:#9FBDE3;
+}
+
+nav > ul > li{
+	float: left;
+
+}
+/*segundo nivel*/
+
+nav li li{
+	background:#9FBDE3;
+	width: 200px;
+	opacity:5;
+}
+nav ul > li > ul {
+	top:100%;
+    background:#9FBDE3;
+}
+footer {
+background-color:black;
+color: white;
+}
